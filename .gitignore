@@ -124,6 +124,9 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv_unit
+.venv_integration
+.venv_yellowbrick
 env/
 venv/
 ENV/

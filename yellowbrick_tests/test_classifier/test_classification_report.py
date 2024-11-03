@@ -28,7 +28,7 @@ from yellowbrick.classifier.classification_report import *
 
 from pytest import approx
 from unittest.mock import patch
-from tests.base import VisualTestCase
+from yellowbrick_tests.base import VisualTestCase
 
 from sklearn.svm import LinearSVC, SVC
 from sklearn.naive_bayes import GaussianNB

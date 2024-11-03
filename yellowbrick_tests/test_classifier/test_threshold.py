@@ -28,7 +28,7 @@ from yellowbrick.datasets import load_occupancy, load_spam
 from yellowbrick.utils import is_probabilistic, is_classifier
 
 from unittest.mock import patch
-from tests.base import VisualTestCase
+from yellowbrick_tests.base import VisualTestCase
 from numpy.testing import assert_array_equal
 
 from sklearn.base import ClassifierMixin

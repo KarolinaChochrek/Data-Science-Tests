@@ -23,8 +23,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from unittest import mock
-from tests.fixtures import Dataset, Split
-from tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
+from yellowbrick_tests.fixtures import Dataset, Split
+from yellowbrick_tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
 
 from yellowbrick.datasets import load_energy, load_concrete
 from yellowbrick.regressor.prediction_error import PredictionError, prediction_error

@@ -21,7 +21,7 @@ import pytest
 import numpy.testing as npt
 
 from unittest.mock import patch
-from tests.base import VisualTestCase
+from yellowbrick_tests.base import VisualTestCase
 
 from sklearn.svm import SVC
 from sklearn.naive_bayes import BernoulliNB

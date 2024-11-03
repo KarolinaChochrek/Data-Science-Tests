@@ -34,7 +34,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler
 
 from unittest.mock import patch
-from tests.base import VisualTestCase
+from yellowbrick_tests.base import VisualTestCase
 
 
 try:

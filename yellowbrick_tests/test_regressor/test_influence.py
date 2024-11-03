@@ -21,8 +21,8 @@ import pytest
 import numpy as np
 import matplotlib.pyplot as plt
 
-from tests.base import VisualTestCase
-from tests.fixtures import Dataset
+from yellowbrick_tests.base import VisualTestCase
+from yellowbrick_tests.fixtures import Dataset
 from sklearn.datasets import make_regression
 
 from yellowbrick.regressor.influence import *

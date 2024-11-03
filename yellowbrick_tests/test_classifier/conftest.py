@@ -19,7 +19,7 @@ Provides fixtures for the classification tests module.
 
 import pytest
 
-from tests.fixtures import Dataset, Split
+from yellowbrick_tests.fixtures import Dataset, Split
 
 from yellowbrick.exceptions import NotFitted
 from sklearn.exceptions import NotFittedError

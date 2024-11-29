@@ -126,6 +126,10 @@ celerybeat.pid
 .venv
 .venv_yellowbrick
 .venv_eli5
+.venv_feature_engine
+.venv_pycaret
+.venv_tpot
+.venv_xgboost
 env/
 venv/
 ENV/

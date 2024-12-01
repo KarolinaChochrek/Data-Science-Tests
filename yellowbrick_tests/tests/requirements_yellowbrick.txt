@@ -1,6 +1,6 @@
 allure-pytest==2.13.5 
-pytest-allure-adaptor>=2.0.0  # Allure plugin for pytest
-allure-python-commons>=2.13.4  # Core Allure library for Python
+pytest-allure-adaptor  # Allure plugin for pytest
+allure-python-commons  # Core Allure library for Python
 
 click==8.1.7
 colorama==0.4.6

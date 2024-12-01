@@ -23,7 +23,7 @@ import numpy as np
 import numpy.testing as npt
 
 from unittest.mock import patch
-from yellowbrick_tests.base import VisualTestCase
+from tests.base import VisualTestCase
 
 from yellowbrick.classifier.rocauc import *
 from yellowbrick.exceptions import ModelError

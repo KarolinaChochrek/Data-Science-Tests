@@ -28,8 +28,8 @@ from yellowbrick.exceptions import YellowbrickValueError
 from yellowbrick.regressor.residuals import ResidualsPlot, residuals_plot
 
 from unittest import mock
-from yellowbrick_tests.fixtures import Dataset, Split
-from yellowbrick_tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
+from tests.fixtures import Dataset, Split
+from tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
 
 from sklearn.datasets import make_regression
 from sklearn.linear_model import Ridge, Lasso

@@ -29,8 +29,8 @@ from yellowbrick.datasets import load_occupancy
 from yellowbrick.classifier.confusion_matrix import *
 
 from unittest.mock import patch
-from yellowbrick_tests.fixtures import Dataset, Split
-from yellowbrick_tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
+from tests.fixtures import Dataset, Split
+from tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
 
 from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB

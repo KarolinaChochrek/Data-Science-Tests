@@ -21,7 +21,7 @@ import sys
 import pytest
 import numpy as np
 
-from yellowbrick_tests.base import VisualTestCase
+from tests.base import VisualTestCase
 from numpy.testing import assert_array_equal
 
 from yellowbrick.datasets import load_energy, load_concrete

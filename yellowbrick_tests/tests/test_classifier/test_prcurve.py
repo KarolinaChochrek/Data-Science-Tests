@@ -25,7 +25,7 @@ from yellowbrick.exceptions import *
 from yellowbrick.classifier.prcurve import *
 from yellowbrick.datasets import load_occupancy
 
-from yellowbrick_tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
+from tests.base import IS_WINDOWS_OR_CONDA, VisualTestCase
 from .test_rocauc import FakeClassifier
 
 from sklearn.svm import LinearSVC, SVC

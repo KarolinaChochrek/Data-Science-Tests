@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+seaborn
+py-xgboost
+pytest
+pytest-mock

@@ -2,6 +2,6 @@ numpy
 pandas
 scipy
 seaborn
-py-xgboost
+xgboost
 pytest
 pytest-mock

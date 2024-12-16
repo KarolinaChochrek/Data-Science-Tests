@@ -6,3 +6,4 @@ seaborn
 xgboost
 pytest
 pytest-mock
+scikit-learn

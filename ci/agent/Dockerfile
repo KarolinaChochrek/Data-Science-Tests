@@ -15,7 +15,7 @@ RUN tar -xf Python-3.12.7.tgz
 WORKDIR /root/Python-3.12.7
 
 RUN ./configure --enable-optimizations
-RUN make -j 1
+RUN make -j $(nproc)
 RUN make altinstall
 
 WORKDIR /root
@@ -26,7 +26,7 @@ RUN tar -xf Python-3.11.10.tgz
 WORKDIR /root/Python-3.11.10
 
 RUN ./configure --enable-optimizations
-RUN make -j 1
+RUN make -j $(nproc)
 RUN make altinstall
 
 WORKDIR /root
@@ -37,7 +37,7 @@ RUN tar -xf Python-3.9.19.tgz
 WORKDIR /root/Python-3.9.19
 
 RUN ./configure --enable-optimizations
-RUN make -j 1
+RUN make -j $(nproc)
 RUN make altinstall
 
 WORKDIR /root
@@ -48,7 +48,7 @@ RUN tar -xf Python-3.7.17.tgz
 WORKDIR /root/Python-3.7.17
 
 RUN ./configure --enable-optimizations
-RUN make -j 1
+RUN make -j $(nproc)
 RUN make altinstall
 
 RUN apt install -y python3.11-venv

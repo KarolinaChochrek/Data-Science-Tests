@@ -1,3 +1,4 @@
+allure-pytest
 numpy
 pandas
 scipy
